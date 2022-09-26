@@ -11,7 +11,7 @@ plt.barh(y=batch , width=passpercentage,
         tick_label=["c1","c2","c3"],
 
         )
-        plt.ylabel(Batch)
-        plt.xlabel(passpercentage)
+        plt.ylabel("Batch")
+        plt.xlabel("passpercentage")
         plt.title("CSE")
         plt.show()
