@@ -4,9 +4,9 @@
 </head>
 <body>
 <table border="2">
-<tr><td style="bg-color:lightblue" rowspan="3">one<td><td>two</td>
-<tr><td style="bg-color:yellow">three</td>
-<tr><td style="bg-color:yellow">four</td>
+<tr><td style="background-color:lightblue" rowspan="3">one</td><td>two</td>
+<tr><td style="background-color:yellow">three</td>
+<tr><td style="background-color:yellow">four</td>
 
 
 </body>
