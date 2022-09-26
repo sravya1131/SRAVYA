@@ -4,7 +4,7 @@ CSE={"c1":55 , "c2":62 , "c3":98}
 batch=list(CSE.keys())
 passpercentage=list(CSE.values())
 fig=plt.figure(figsize=(10,6))
-plt.pie(x=batch , height=passpercentage,
+plt.bar(x=batch , height=passpercentage,
         colors=["blue" ,"pink" , "red"],
      
         edgrcolor="black",
