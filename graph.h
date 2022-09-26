@@ -14,3 +14,4 @@ plt.barh(y=batch , width=passpercentage,
         plt.ylabel(Batch)
         plt.xlabel(passpercentage)
         plt.title("CSE")
+        plt.show()
