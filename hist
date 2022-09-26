@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+import numpy as np 
+CSE=[1,1,1,12,3,4,55,6,5]
+
+fig=plt.figure(figsize=(10,6))
+plt.hist(CSE,
+         edgecolor="black", 
+         bins="2"
+        )
+        plt.xlabel("Batch")
+        plt.ylabel("marks")
+        plt.title("CSE")
+        plt.show()
