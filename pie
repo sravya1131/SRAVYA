@@ -1,0 +1,21 @@
+import matplotlib.pyplot as plt
+import numpy as np 
+CSE={"c1":55 , "c2":62 , "c3":98}
+batch=list(CSE.keys())
+passpercentage=list(CSE.values())
+fig=plt.figure(figsize=(10,6))
+plt.pie(x=passpercentage , label=batch,
+        colors=["blue" ,"pink" , "red"],
+        explode=[0.01,0.01,0.01],
+        shadow= True,
+        autopct=%.2f%%
+        )
+        plt.title("CSE")
+        plt.legend(["c1" ,"c2" ,"c3"])
+        
+        
+
+
+
+plot.show()
+
