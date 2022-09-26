@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>table</title>
+</head>
+<body>
+<table border="2">
+<tr><td style="background-color:lightblue" colspan="3">one</td>
+<tr><td style="background-color:yellow">two</td><td style="background-color:yellow">three</td><td style="background-color:yellow">four</td></tr>
+<tr><td style="background-color:yellow">five</td><td style="background-color:yellow">six</td><td style="background-color:yellow">seven</td></tr>
+
+
+</body>
+</html>
