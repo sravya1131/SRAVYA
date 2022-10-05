@@ -1,0 +1,76 @@
+\documentclass{knittingpattern}
+\usepackage{chemfig}
+\usepackage{xskak}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\definecolor{colour0}{HTML}{000000}
+\definecolor{colour2}{HTML}{97DE76}
+\definecolor{colour4}{HTML}{EDB668}
+\definecolor{colour3}{HTML}{99CCFF}
+\definecolor{colour5}{HTML}{CCFFCC}
+
+\title{Assignment}
+\author{ashrithgaddam2003 }
+\date{September 2022}
+
+
+\begin{document}
+\section{KNITTING PATTERNS}
+\paragraph{This class provides a very convinient way to introduce boxed diagrams.We are thus going to use our stock image a few more times.Also,it has a few features to make knitting instructions more readable,however,we can adapt them to make prittier documents for purpose as well.}
+\begin{center}
+\includegraphics{overleaf.jpg}
+\end{center}
+\important{colour0}{colour4}{we have way f highlighting text,oras was originally intended,important instructions.feeel free to use whatever background colour and border you like  when you replicate these features,but try to replicate the dimensions as well as you can.}
+\begin{pattern}{colour3}{colour5}
+course & credits\\
+Instruction to computer programming & 6\\
+Abstractions and paradigms in programming & 6\\
+Abstractions and paradigms in programming & 3\\
+Data structures and Algorithms & 6\\
+Software System Lab & 8\\
+\end{pattern}
+\note{colour0}{colour3}{Note}
+{This is a note.The above feature is used to typeset a sequence of knitting instructions.This first column is for instructions,the second for the number of stitches.But hey,it looks cool!}
+\intro{Look at the adjoining graph.Yes,you've seen it before.This time,it is side by side with paragraph! By default,this will be a quarter of the width of the page.If you follow the hint that is the title of this section,you won't have to type in cumbersome code to it in images.Also, have you noticed that the pages are much wider.. If your distribution does not support the MacTeX,download it rom here and copy the .cls file to folder/directory your code is in.See the point where stuff becomes exponentially harder to do without LATEX..We daresay the rest of this assignment crosses that point.Good luck!  }{overleaf.jpg}
+
+\pagebreak
+\section{Chess Notation}
+\begin{center}
+\newchessgame
+\mainline{1.h5 b5 2.Nh3 e5 3.Kf1 c5}\\
+\mainline{4.b4 Bc5 5.Nc3 Bb4 6.Nd5 Bc5}\\
+\mainline{7.g4 Qa5 8.d3 Qb4 9.e4 Qb2}\\
+\mainline{10.Rg1 Qb4 11.f4 Qb2 12.Rb1 Bd6}\\
+\mainline{13.Ra1 Be5 14.Ng5 Bf4 15.Ne6 Be5}\\
+\mainline{16.Nd4 Bd6 17.Nf5 Bc5 18.Bf4 Bb4}\\
+\mainline{19.Bd6 Bc5 20.Qf3}\\
+\chessboard[showmover=false]\\
+\newchessgame
+\mainline{1.h4 Na6 2.g4 b6 3.b3 e6}\\
+\mainline{4.e4 Qe7 5.f4 Kd8 6.h5 e5}\\
+\mainline{7.e5 Qf6 8.b4 Qf4 9.d3 Qb4 10.Nc3 Rb8}\\
+\mainline{11.Ba3 d6 12.Nh3 Bg7 13.Nf4 Qc7 14.Ne6 Ra8}\\
+\mainline{15.Bd6 Bh6 16.Ng7 Qc6 17.Ke2 Qh1 18.Qa1 Bg5}\\
+\mainline{19.Qf1 Bf4 20.Qf2 Bh2 21.Na4 Qa1}\\
+\mainline{22.Nc3 Bg1 23.Qf6 Bh2 24.Nd5 b5}\\
+\chessboard[showmover=false]\\
+\pagebreak
+\newchessgame
+\mainline{1.h4 Na6 2.g4 b6 3.b3 e6}\\
+\mainline{4.e4 Qe7 5.f4 Kd8 6.h5 e5}\\
+\mainline{7.e5 Qf6 8.b4 Qf4 9.d3 Qb4 10.Nc3 Rb8}\\
+\mainline{11.Ba3 d6 12.Nh3 Bg7 13.Nf4 Qc7 14.Ne6 Ra8}\\
+\mainline{15.Bd6 Bh6 16.Ng7 Qc6 17.Ke2 Qh1 18.Qa1 Bg5}\\
+\mainline{19.Qf1 Bf4 20.Qf2 Bh2 21.Na4 Qa1}\\
+\mainline{22.Nc3 Bg1 23.Qf6 Bh2 24.Nd5 b5}\\
+\mainline{25.h4 Nf6 26.Be7 b6}\\
+\chessboard[showmover=false]
+\end{center}
+
+\pagebreak
+\section{Chemistry}
+\begin{center}
+\chemfig{*6((-Cl)-=(*6(-N=-=(-HN-[:30](-[2])(-[:-30]-[:30]-[:-30]-[:30]N(-[2]-[:30]-[:-30]OH)(-[:-30]-[:30])))-))-=-=)}
+\end{center}
+\paragraph{This is the molecule hydroxychloroquine,that recently shot to fame as a proposed cure for COVID-19..}
+\end{document}
