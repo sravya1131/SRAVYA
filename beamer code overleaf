@@ -1,0 +1,79 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usetheme{Warsaw}
+\usepackage{tikz}
+\usepackage{graphicx}
+\title{Beamer}
+\author{ashrithgaddam2003 }
+\date{September 2022}
+
+\begin{document}
+
+\begin{frame}
+\frame{\titlepage}
+\end{frame}
+\begin{frame}{Table of Contents}
+    \tableofcontents
+    \section{Introduction}
+    \subsection{latex beamer}
+    \subsection{what to do?}
+    \subsubsection{where to go?}
+    \section{In to the Latex..}
+    \section{Beamer}
+    \section{Doing everything...?}
+\end{frame}
+\begin{block}{example}
+This is an example i have written 
+\end{block}
+Hello all this is \alert{Ashrith}...
+\begin{alertblock}{Important Text}
+This is alerted Block and is very Important to read and please do not neglect  this information is provided please utilize it properly and be careful while using it also be aware of what I'm doing ..do a proper job and keep the premises clean before you go to hostel rooms please do a good job ..all the best for your examination  your doing a good job and keep it going ...
+\end{alertblock}
+\begin{frame}{Doing some examples on how to itemize the things}
+\begin{itemize}
+    \item<1->this appears on first slide
+    \item<2->this appears in second slide
+    \item<3>this appears in third slide
+    \item<4->this appears in fourth slide
+\end{itemize}
+   
+\end{frame}
+\begin{frame}
+    In this text will be partially visible\pause\\
+    now it's is somewhat better \pause\\
+    And then it's completely visible..\\
+    \includegraphics[width=1cm,height=1cm]{pie.png}
+   \begin{tikzpicture}
+    \filldraw[color=red!50,fill=red!10](1,0) circle(1.5);
+    \node[draw,color=green] at (1,0) {LOGO HERE}
+    \end{tikzpicture}
+\end{frame}
+\begin{frame}{doing some Basics}
+    \flushleft{hi hello vanakkam}\\
+    \flushright{same here}\\
+    \begin{center}
+         Ashrith Here..
+    \end{center}
+\end{frame}
+\begin{frame}{basics}
+\centering
+\begin{tabular}{||c|c|c||}
+\hline
+    \textbf{Names} &\textbf{Class}&\textbf{ID NO..}  \\
+    \hline
+       \hline
+    Sravya & c3 & B191131\\
+    \hline
+    Uday & c3 & B191021\\
+       \hline
+    Bhavana & c3 & B191687\\
+       \hline
+    Nanda Kishore & c3 & B191066\\
+       \hline
+    Shruthi & c3 & B191015\\
+       \hline
+    Ashriht & c3 & B191354\\
+    \hline
+\end{tabular}
+\end{frame}
+\end{document}
